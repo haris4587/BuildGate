@@ -1,0 +1,1 @@
+{"title":"BuildGate reference: documentation and deployment","criteria":[{"id":"SETUP","kind":"DOCUMENTATION","required":true,"description":"Provide specific installation and deployment instructions for the project."},{"id":"DEPLOYED","kind":"DEPLOYMENT","required":true,"description":"Provide a finalized successful Studionet deployment bound to the submitted source code."}]}
