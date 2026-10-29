@@ -1,0 +1,4 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {fingerprint,connect} from '../src/client.js';
+test('fingerprints exact UTF-8 bytes without secure-context WebCrypto',async()=>{const original=globalThis.fetch;globalThis.fetch=async()=>new Response('hello');try{const f=await fingerprint('owner/repo','a'.repeat(40),'README.md','DOCS');assert.equal(f.bytes,5);assert.equal(f.sha256,'2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824');}finally{globalThis.fetch=original;}});
+test('fingerprint rejects traversal and mutable refs',async()=>{await assert.rejects(fingerprint('owner/repo','main','README.md','DOCS'));await assert.rejects(fingerprint('owner/repo','a'.repeat(40),'../secret','DOCS'));});
+test('account key validation and session network',()=>{assert.throws(()=>connect('invalid'));assert.equal(connect('').chain.id,61999);});

@@ -1,0 +1,260 @@
+[
+  {
+    "id": 0,
+    "hash": "ee8a9e120d278a84df2bbb680c1e908d691b9a5234d7a888d09eebd2cfae983b",
+    "history": [
+      {
+        "assessment": {
+          "deployment": "UNKNOWN",
+          "findings": [
+            {
+              "citations": [
+                {
+                  "line": 5,
+                  "quote": "## Setup",
+                  "source": 0
+                },
+                {
+                  "line": 6,
+                  "quote": "Install dependencies with npm ci.",
+                  "source": 0
+                },
+                {
+                  "line": 7,
+                  "quote": "Run npm run dev to open the frontend development server.",
+                  "source": 0
+                },
+                {
+                  "line": 8,
+                  "quote": "Upload contracts/build_gate.py into GenLayer Studio and deploy with Normal (Full Consensus).",
+                  "source": 0
+                }
+              ],
+              "id": "SETUP",
+              "status": "PASS"
+            },
+            {
+              "citations": [],
+              "id": "DEPLOYED",
+              "status": "UNKNOWN"
+            }
+          ],
+          "reason": "ASSESSED",
+          "states": [
+            "PASS",
+            "UNKNOWN"
+          ],
+          "verdict": "INCONCLUSIVE"
+        },
+        "attempt": 1,
+        "contract": "0xF8649AfA845Af7914D367A79AdE69EA8E0F01425",
+        "decision_hash": "0368b092796e56799d7993e265cb5e5e16593f9f8e09994776abfe1af4afc6f2",
+        "domain": "BuildGate/v1",
+        "owner": "0xe2ef7CD32BEa2fF6c5F4F2E9179Ee6a9f5c38d37",
+        "previous_hash": "",
+        "submission_hash": "ee8a9e120d278a84df2bbb680c1e908d691b9a5234d7a888d09eebd2cfae983b",
+        "submission_id": 0
+      }
+    ],
+    "owner": "0xe2ef7CD32BEa2fF6c5F4F2E9179Ee6a9f5c38d37",
+    "submission": {
+      "policy_hash": "2830281d6edffb1442146b31b4999ff2b92cd1496a787e879e3c1860e56627c8",
+      "policy_id": 0,
+      "previous_id": -1,
+      "project": {
+        "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+        "deployment": null,
+        "name": "BuildGate · evidence gap reference",
+        "repository": "haris4587/BuildGate",
+        "sources": [
+          {
+            "bytes": 656,
+            "path": "fixtures/project.md",
+            "role": "DOCS",
+            "sha256": "6ab7cfa6ac59b6005ef2550235a9275778f3e5ce923c212af3e577ab6e9d3284"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 1,
+    "hash": "efaa9ecc7f3b509fec273dfc43fcfdfe3b47af805974e7752d4f3563c8beac4e",
+    "history": [
+      {
+        "assessment": {
+          "deployment": "PASS",
+          "findings": [
+            {
+              "citations": [],
+              "id": "DEPLOYED",
+              "status": "PASS"
+            }
+          ],
+          "reason": "ASSESSED",
+          "states": [
+            "PASS"
+          ],
+          "verdict": "VERIFIED"
+        },
+        "attempt": 1,
+        "contract": "0xF8649AfA845Af7914D367A79AdE69EA8E0F01425",
+        "decision_hash": "59e92c7ec272727057f1937d5e5226ab3deca6ee00b928633d396ab2f4b81ceb",
+        "domain": "BuildGate/v1",
+        "owner": "0x82068B31B55f93A94cd9Ce4BB4B492a493Ad6f14",
+        "previous_hash": "",
+        "submission_hash": "efaa9ecc7f3b509fec273dfc43fcfdfe3b47af805974e7752d4f3563c8beac4e",
+        "submission_id": 1
+      }
+    ],
+    "owner": "0x82068B31B55f93A94cd9Ce4BB4B492a493Ad6f14",
+    "submission": {
+      "policy_hash": "cf6884f7f3fcba2af531f52cdd86dac63deee331aa90f6737b560522d0dd62f3",
+      "policy_id": 1,
+      "previous_id": -1,
+      "project": {
+        "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+        "deployment": {
+          "address": "0xF8649AfA845Af7914D367A79AdE69EA8E0F01425",
+          "chain_id": 61999,
+          "source": 0,
+          "transaction": "0xe350cb2ff31d2ed2f4a5f20e96e34e1ade6ec64a5c1997527d80835190b5d500"
+        },
+        "name": "BuildGate · authenticated initial deployment",
+        "repository": "haris4587/BuildGate",
+        "sources": [
+          {
+            "bytes": 15606,
+            "path": "contracts/build_gate.py",
+            "role": "CODE",
+            "sha256": "1aeedaacc5e33592efe417cdb62e1df49097428a21003f663140e9f583e83c1b"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 2,
+    "hash": "2f7a621d1add3552200836825bc8ed64b39c302ca81ffcb1c44a1bc1c1c4b0d7",
+    "history": [
+      {
+        "assessment": {
+          "deployment": "UNKNOWN",
+          "findings": [
+            {
+              "citations": [
+                {
+                  "line": 6,
+                  "quote": "Install dependencies with npm ci.",
+                  "source": 0
+                },
+                {
+                  "line": 8,
+                  "quote": "Upload contracts/build_gate.py into GenLayer Studio and deploy with Normal (Full Consensus).",
+                  "source": 0
+                }
+              ],
+              "id": "SETUP",
+              "status": "PASS"
+            }
+          ],
+          "reason": "ASSESSED",
+          "states": [
+            "PASS"
+          ],
+          "verdict": "VERIFIED"
+        },
+        "attempt": 1,
+        "contract": "0xF8649AfA845Af7914D367A79AdE69EA8E0F01425",
+        "decision_hash": "01c661e0e52bff507130903add70c8aff33365bc2e8b2b81872fe9e2daa8a0a9",
+        "domain": "BuildGate/v1",
+        "owner": "0xcAD225935F589AC3cf345aB668e69A3F74C92bb1",
+        "previous_hash": "",
+        "submission_hash": "2f7a621d1add3552200836825bc8ed64b39c302ca81ffcb1c44a1bc1c1c4b0d7",
+        "submission_id": 2
+      }
+    ],
+    "owner": "0xcAD225935F589AC3cf345aB668e69A3F74C92bb1",
+    "submission": {
+      "policy_hash": "ddfa16bf48d63af0750e798274efc65fec458deea3ab8293def75874da166433",
+      "policy_id": 2,
+      "previous_id": -1,
+      "project": {
+        "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+        "deployment": null,
+        "name": "BuildGate · documentation scope reference",
+        "repository": "haris4587/BuildGate",
+        "sources": [
+          {
+            "bytes": 656,
+            "path": "fixtures/project.md",
+            "role": "DOCS",
+            "sha256": "6ab7cfa6ac59b6005ef2550235a9275778f3e5ce923c212af3e577ab6e9d3284"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": 3,
+    "hash": "db1eeb78d5effe9d32a55372ce1e3fc710867a69313b3a1b49c3cdb46032c47d",
+    "history": [
+      {
+        "assessment": {
+          "deployment": "UNKNOWN",
+          "findings": [
+            {
+              "citations": [
+                {
+                  "line": 3,
+                  "quote": "## Setup",
+                  "source": 0
+                },
+                {
+                  "line": 4,
+                  "quote": "This project deliberately does not provide a setup guide.",
+                  "source": 0
+                }
+              ],
+              "id": "SETUP",
+              "status": "FAIL"
+            }
+          ],
+          "reason": "ASSESSED",
+          "states": [
+            "FAIL"
+          ],
+          "verdict": "NON_COMPLIANT"
+        },
+        "attempt": 1,
+        "contract": "0xF8649AfA845Af7914D367A79AdE69EA8E0F01425",
+        "decision_hash": "151afa430ad91b0e1953b6de505e5e3e0616449c8ed3f80304db49715b9e7e0f",
+        "domain": "BuildGate/v1",
+        "owner": "0xcAD225935F589AC3cf345aB668e69A3F74C92bb1",
+        "previous_hash": "",
+        "submission_hash": "db1eeb78d5effe9d32a55372ce1e3fc710867a69313b3a1b49c3cdb46032c47d",
+        "submission_id": 3
+      }
+    ],
+    "owner": "0xcAD225935F589AC3cf345aB668e69A3F74C92bb1",
+    "submission": {
+      "policy_hash": "ddfa16bf48d63af0750e798274efc65fec458deea3ab8293def75874da166433",
+      "policy_id": 2,
+      "previous_id": 2,
+      "project": {
+        "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+        "deployment": null,
+        "name": "BuildGate · deliberately incomplete revision",
+        "repository": "haris4587/BuildGate",
+        "sources": [
+          {
+            "bytes": 272,
+            "path": "fixtures/incomplete.md",
+            "role": "DOCS",
+            "sha256": "bd99a4434a7ba26963a5b372d4570638586b44bcc43ec826e0ab80b99bbb6387"
+          }
+        ]
+      }
+    }
+  }
+]

@@ -102,7 +102,8 @@ def deployment_check(s, texts):
         if not isinstance(tx, dict) or tx.get('status') != 'FINALIZED':
             return 'UNKNOWN'
         receipts = tx.get('consensus_data', {}).get('leader_receipt', [])
-        leader = receipts[-1] if isinstance(receipts, list) and receipts else receipts
+        leaders = [r for r in receipts if isinstance(r, dict) and r.get('mode') == 'leader'] if isinstance(receipts, list) else []
+        leader = leaders[-1] if leaders else receipts if isinstance(receipts, dict) and receipts.get('mode') == 'leader' else None
         if not isinstance(leader, dict) or leader.get('execution_result') != 'SUCCESS':
             return 'UNKNOWN'
         # Deployment is type 1 on stable Studio; require source and recipient binding.

@@ -1,0 +1,61 @@
+{
+  "hash": "db1eeb78d5effe9d32a55372ce1e3fc710867a69313b3a1b49c3cdb46032c47d",
+  "history": [
+    {
+      "assessment": {
+        "deployment": "UNKNOWN",
+        "findings": [
+          {
+            "citations": [
+              {
+                "line": 3,
+                "quote": "## Setup",
+                "source": 0
+              },
+              {
+                "line": 4,
+                "quote": "This project deliberately does not provide a setup guide.",
+                "source": 0
+              }
+            ],
+            "id": "SETUP",
+            "status": "FAIL"
+          }
+        ],
+        "reason": "ASSESSED",
+        "states": [
+          "FAIL"
+        ],
+        "verdict": "NON_COMPLIANT"
+      },
+      "attempt": 1,
+      "contract": "0xF8649AfA845Af7914D367A79AdE69EA8E0F01425",
+      "decision_hash": "151afa430ad91b0e1953b6de505e5e3e0616449c8ed3f80304db49715b9e7e0f",
+      "domain": "BuildGate/v1",
+      "owner": "0xcAD225935F589AC3cf345aB668e69A3F74C92bb1",
+      "previous_hash": "",
+      "submission_hash": "db1eeb78d5effe9d32a55372ce1e3fc710867a69313b3a1b49c3cdb46032c47d",
+      "submission_id": 3
+    }
+  ],
+  "owner": "0xcAD225935F589AC3cf345aB668e69A3F74C92bb1",
+  "submission": {
+    "policy_hash": "ddfa16bf48d63af0750e798274efc65fec458deea3ab8293def75874da166433",
+    "policy_id": 2,
+    "previous_id": 2,
+    "project": {
+      "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+      "deployment": null,
+      "name": "BuildGate \u00b7 deliberately incomplete revision",
+      "repository": "haris4587/BuildGate",
+      "sources": [
+        {
+          "bytes": 272,
+          "path": "fixtures/incomplete.md",
+          "role": "DOCS",
+          "sha256": "bd99a4434a7ba26963a5b372d4570638586b44bcc43ec826e0ab80b99bbb6387"
+        }
+      ]
+    }
+  }
+}

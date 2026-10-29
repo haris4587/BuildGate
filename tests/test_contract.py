@@ -55,7 +55,7 @@ class ContractTests(unittest.TestCase):
     self.assertEqual(c.normalize(d,pol([criterion('DEPLOYMENT')]),sub(),['text'],'UNKNOWN')['verdict'],'INCONCLUSIVE')
  def test_deployment_binding(self):
     s=sub();s['sources'][0]['role']='CODE';s['deployment']={'chain_id':61999,'address':'0x'+'1'*40,'transaction':'0x'+'2'*64,'source':0}
-    tx={'status':'FINALIZED','type':1,'to_address':s['deployment']['address'],'data':{'contract_code':base64.b64encode(b'code').decode()},'consensus_data':{'leader_receipt':[{'execution_result':'SUCCESS'}]}}
+    tx={'status':'FINALIZED','type':1,'to_address':s['deployment']['address'],'data':{'contract_code':base64.b64encode(b'code').decode()},'consensus_data':{'leader_receipt':[{'mode':'leader','execution_result':'SUCCESS'},{'mode':'validator','vote':'idle','execution_result':'ERROR'}]}}
     with patch.object(c,'rpc',return_value=tx):self.assertEqual(c.deployment_check(s,['code']),'PASS');self.assertEqual(c.deployment_check(s,['other']),'FAIL')
     tx['status']='ACCEPTED'
     with patch.object(c,'rpc',return_value=tx):self.assertEqual(c.deployment_check(s,['code']),'UNKNOWN')

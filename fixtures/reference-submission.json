@@ -1,0 +1,14 @@
+{
+  "name": "BuildGate \u00b7 evidence gap reference",
+  "repository": "haris4587/BuildGate",
+  "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+  "sources": [
+    {
+      "path": "fixtures/project.md",
+      "role": "DOCS",
+      "sha256": "6ab7cfa6ac59b6005ef2550235a9275778f3e5ce923c212af3e577ab6e9d3284",
+      "bytes": 656
+    }
+  ],
+  "deployment": null
+}

@@ -53,11 +53,11 @@ The Python runner is pinned in the contract header to SDK v0.2.16. JS SDK is pin
 
 ## Use the website
 
-Public reads do not require a wallet. Connect a disposable Studio sandbox key or create an ephemeral session account. The session account is generated using the same GenLayer SDK mechanism as Studio, but is separate from Studio’s origin-bound account. Keys stay in tab memory, never localStorage, URLs, source control or the backend. Reload/disconnect clears them; export your audit records before ending a session. Do not use funded production keys. Studio’s built-in account was used for the initial contract deployment.
+Public reads do not require a wallet. Connect a disposable Studio sandbox key or create an ephemeral session account. The session account is generated using the same GenLayer SDK mechanism as Studio, but is separate from Studio’s origin-bound account. Keys stay in tab memory, never localStorage, URLs, source control or the backend. Use “Show current test key” in the account dialog to privately back up a reusable sandbox key. Reload/disconnect clears tab-held credentials; import your saved key to manage earlier submissions. Export audit records before ending a session. Do not use funded production keys. Studio’s built-in account was used for the initial contract deployment.
 
 1. Lock a policy or inspect its exact contents and creator.
 2. Paste the project’s repository and full commit SHA. Use “Fingerprint a repository file” to fetch and add each evidence file.
-3. Register the submission and note the returned ID in the transaction receipt. The dashboard shows global counts; concurrent submissions mean count-minus-one is not a safe ID inference.
+3. Register the submission and use the returned ID shown in the activity panel. The app fills the relevant ID field from the leader receipt; global counts are never used to infer it.
 4. Assess your submission, wait for FINALIZED **and** execution SUCCESS, then inspect findings. An accepted receipt is still pending finality. Failed execution remains failed even if consensus finalizes.
 5. On a tracking timeout, resume the existing transaction hash. Never resubmit blindly. Submit corrected evidence as a new linked version.
 

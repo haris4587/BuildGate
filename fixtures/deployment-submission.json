@@ -1,0 +1,19 @@
+{
+  "name": "BuildGate \u00b7 authenticated initial deployment",
+  "repository": "haris4587/BuildGate",
+  "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+  "sources": [
+    {
+      "path": "contracts/build_gate.py",
+      "role": "CODE",
+      "sha256": "1aeedaacc5e33592efe417cdb62e1df49097428a21003f663140e9f583e83c1b",
+      "bytes": 15606
+    }
+  ],
+  "deployment": {
+    "chain_id": 61999,
+    "address": "0xF8649AfA845Af7914D367A79AdE69EA8E0F01425",
+    "transaction": "0xe350cb2ff31d2ed2f4a5f20e96e34e1ade6ec64a5c1997527d80835190b5d500",
+    "source": 0
+  }
+}

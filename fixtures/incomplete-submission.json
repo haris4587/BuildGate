@@ -1,0 +1,14 @@
+{
+  "name": "BuildGate \u00b7 non-compliant reference",
+  "repository": "haris4587/BuildGate",
+  "commit": "4c1f13bb07b5b1090fea2f90197638f53f081e24",
+  "sources": [
+    {
+      "path": "fixtures/incomplete.md",
+      "role": "DOCS",
+      "sha256": "bd99a4434a7ba26963a5b372d4570638586b44bcc43ec826e0ab80b99bbb6387",
+      "bytes": 272
+    }
+  ],
+  "deployment": null
+}

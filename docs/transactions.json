@@ -1,0 +1,60 @@
+[
+  {
+    "label": "Contract deployment through Studio built-in account",
+    "hash": "0xe350cb2ff31d2ed2f4a5f20e96e34e1ade6ec64a5c1997527d80835190b5d500"
+  },
+  {
+    "label": "Immutable policy created in Studio built-in account",
+    "hash": "0xefc7bedc448493aeff9ada03f06647c52b52a5cf59f95cb9b0b66718aa843851"
+  },
+  {
+    "label": "Frontend reference submission registration",
+    "hash": "0xc6cb0b357ea070e2a3046afeb31104cfd9b2d9e005f228364e9ed6229ba6a6ba"
+  },
+  {
+    "label": "Leader receipt selection fix: code upgrade through Studio",
+    "hash": "0xaf3abcf5d2f691523ab465ad3672ffee7b70491c5392018f217affd3810bc346",
+    "upgrade": true
+  },
+  {
+    "label": "Reference policy 1 for original deployment binding",
+    "hash": "0x1e848b50c5b8496c05d61aed2958938e89d8c256646fe0a8a9c6fc6844fd80c7"
+  },
+  {
+    "label": "Frontend assessment: evidence gap",
+    "hash": "0x448de77255ef3914d55792264fa3bb0a3862797429d60280cc9875e32bc81dfd"
+  },
+  {
+    "label": "Studio deployment evidence registration",
+    "hash": "0xd4fff27e313f10b4ff6abbe9a074d06b11779a738c1212c24364a7def5fbd68e"
+  },
+  {
+    "label": "Studio authenticated deployment assessment",
+    "hash": "0xdf5a0d028c37cc03934ade1d2ae9e9c9854c1471cb51f5d5beda1494096d404a"
+  },
+  {
+    "label": "Frontend policy creation",
+    "hash": "0xbf3d2db8398eb569b2a4102abfeaaec62cafa33cedd9603edba86e34abf2902f"
+  },
+  {
+    "label": "Frontend fingerprinted submission registration, returned ID 2",
+    "hash": "0x7a5fb7a87cf2783ad2536f9424f4267467528a8a482d1ed305d00b2889d8993a"
+  },
+  {
+    "label": "Frontend documentation assessment",
+    "hash": "0xa24142b771d4b0ca1a1da306248136ac4cdd80b5b702609e0bc219cf05156707"
+  },
+  {
+    "label": "Expected sealed-decision execution failure",
+    "hash": "0x6525344ac3c23d9e75e72c4d221cc1ce8f7afe5b1b2f69f003914c0323c63fd9",
+    "expectedFailure": true
+  },
+  {
+    "label": "Frontend linked revision registration, previous submission 2",
+    "hash": "0x72cbe6b190c953f0eced83594a5c9827a8f03a9efd32e06be6a887fed957ba3c"
+  },
+  {
+    "label": "Frontend linked revision assessment: NON_COMPLIANT",
+    "hash": "0xc8d4fdf9c1608e54d43505e510b8e8f3fce11a873c60847e266d66d2e12243f0"
+  }
+]
